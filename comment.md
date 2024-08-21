@@ -15,17 +15,13 @@ int main() {
 }
 ```
 
-### Day 1 (16/8/2024)
+1. Selection Sort (Sắp xếp chọn) [16/8/2024]
 
-1. Selection Sort (Sắp xếp chọn)
+2. Bubble Sort (Sắp xếp nổi bọt) [16/8/2024]
 
-2. Bubble Sort (Sắp xếp nổi bọt)
+3. Insertion Sort (Sắp xếp chèn) [16/8/2024]
 
-3. Insertion Sort (Sắp xếp chèn)
-
-#
-
-4. Merge Sort (Sắp xếp trộn)
+4. Merge Sort (Sắp xếp trộn) [21/8/2024]
 
 5. Quick Sort (Sắp xếp nhanh)
 

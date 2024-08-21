@@ -16,7 +16,7 @@ VD: 6 5 12 10 9 1
 |  11 | 1 (5)  |        | 1 (5)  |
 +-----+--------+--------+--------+
 
-https://ozh.github.io/ascii-tables/
+Tạo bảng ascii: https://ozh.github.io/ascii-tables/
 
 */
 #include<bits/stdc++.h>
@@ -27,11 +27,11 @@ void merge(int *a, int left, int mid, int right) {
     vector<int> x(a + left, a + mid + 1); // a + left ở đây là con trỏ trở tới a[left] trong mảng a
     vector<int> y(a + mid + 1, a + right + 1); // Nếu ko cộng 1 thì con trỏ sẽ trỏ vào phần tử sau phần tử cuối
     int i = 0, j = 0;
-    while(i < x.size() && j < y.size()) { 
-        a[left++] = (x[i] <= y[j]) ? x[i++] : x[j++];
+    while(i < x.size() && j < y.size()) { // Kiểm tra nếu cả i và j lần lượt bé hơn size của x và y
+        a[left++] = (x[i] <= y[j]) ? x[i++] : y[j++]; // Nếu x[i] <= y[j] thì gán lần lượt x[i] vào x[left]
     }
-    while(i < x.size()) a[left++] = x[i++];
-    while(j < y.size()) a[left++] = y[j++];
+    while(i < x.size()) a[left++] = x[i++]; // Check xem còn phần tử nào ở x chưa sắp xếp thì sắp xếp tương tự như trên
+    while(j < y.size()) a[left++] = y[j++]; // Cũng, tương tự, check xem còn sót phần tử nào ở y chưa đc sắp xếp
 
 }
 void mergeSort(int *a, int left, int right) {
