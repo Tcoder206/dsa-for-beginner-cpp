@@ -18,12 +18,12 @@ int main() {
 
 ### Sorting Algorithms
 Hướng tới ICPC:
-- [] Couting Sort
-- [] Radix Sort
-- [] Bucket Sort
-- [] Intro Sort
-- [] Tim Sort
+- [ ] Couting Sort
+- [ ] Radix Sort
+- [ ] Bucket Sort
+- [ ] Intro Sort
+- [ ] Tim Sort
 Phổ biến và đc ưa chuộng:
-- [] Merge Sort
-- [] Quick Sort
-- [] Heap Sort
+- [ ] Merge Sort
+- [ ] Quick Sort
+- [ ] Heap Sort
