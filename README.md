@@ -23,6 +23,7 @@ Hướng tới ICPC:
 - [ ] Bucket Sort
 - [ ] Intro Sort
 - [ ] Tim Sort
+
 Phổ biến và đc ưa chuộng:
 - [ ] Merge Sort
 - [ ] Quick Sort

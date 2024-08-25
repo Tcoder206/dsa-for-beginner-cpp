@@ -26,12 +26,12 @@
 __**a.**__ Quy hoạch Lomuto `21/8/2024`
 __**b.**__ Quy hoạch Hoare `23/8/2024`
 
-**6.** Counting Sort (Đếm phân phối) `24/8/2024`
-- Big-O Notation: O(k + n), k là GTLN của mảng
+**6.** Counting Sort (Đếm phân phối) `25/8/2024`
+- Big-O Notation: O(Max k + n)
 - Nên dùng khi: Các bài toán có số đếm giới hạn, sắp xếp chữ cái, mảng có giá trị nhỏ
 
 **7.** Radix Sort (Sắp xếp theo cơ số)
-- Big-O Notation: O(k * n), n là phần tử, k là chữ số phần tử lớn nhất
+- Big-O Notation: O(Max k * n)
 - Nên dùng khi: Các bài toán có số đếm giới hạn, sắp xếp chữ cái, mảng có giá trị nhỏ
 
 **8.** External Sort
