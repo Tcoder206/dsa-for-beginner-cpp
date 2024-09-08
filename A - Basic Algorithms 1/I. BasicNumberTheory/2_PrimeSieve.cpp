@@ -14,6 +14,8 @@ Giả sử: a <= b
 
 */
 
+// https://wiki.vnoi.info/vi/algo/math/divisors
+
 #include<bits/stdc++.h>
 using namespace std;
 
