@@ -1,7 +1,5 @@
 /*
 
-Nghịch đảo modulo: 
-
 Cho b là số nguyên và x, m là số nguyên dương (x < m)
 Nếu x * b mod m = 1 thì x là nghịch đảo của b mod n
 Ký hiệu b^-1 mod n
