@@ -21,19 +21,20 @@ Input   Output
 121
 
 */
-Code đang bị lỗi
+
 #include<iostream>
 using namespace std;
 int main() {
-    int n = 2;
-    int input[n] = {70, 121};
+    int n = 2; // Số lượng test case
+    int input[n] = {70, 121}; // Tiền cần đổi
+
     for(int i = 0; i < n; i++) {
 
-        int a[10] = {1000, 500, 200, 100, 50, 20, 10, 5, 2, 1};
+        int a[10] = {1, 2, 5, 10, 20, 50, 100, 200, 500, 1000};
         int count = 0;
-        for(int j = 9; j >= 0; j--){
-            count += input[n]/a[j];
-            input[n] %= a[j];
+        for(int j = 9; j >= 0; j--){ // Duyệt ngược từ số lớn nhất đến số nhỏ nhất
+            count += input[i]/a[j]; // Đếm số tờ tiền cần đổi từ input[n]
+            input[i] %= a[j]; // Từ đi số tiền đã đổi từ input[n] xem còn dư bao nhiêu
         }
         cout << count << " ";
 
