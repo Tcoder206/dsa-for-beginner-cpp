@@ -4,8 +4,14 @@
 3. Fibonacci
 4. Xúc sắc
 
-## Tóm tắt 4 bước để giải 1 bài Dynamic Programming (Quy hoạch động):
+## Các nguồn tài liệu tham khảo
+* [16 bài DP cơ bản (YugiHacker)](https://www.youtube.com/watch?v=FcPcQ7bccxM&t=4s&ab_channel=YugiHacker)
+* [List DP về đệ quy có ghi nhớ](https://www.youtube.com/watch?v=nZBfaC0lfqI&list=PLDgptIulgMt5hmL8-H9lLrgIYxgaQixGk&ab_channel=Ngh%E1%BB%87thu%E1%BA%ADtl%E1%BA%ADptr%C3%ACnh)
+* [Lý thuyết DP cơ bản (CTDL&GT đại học Cần Thơ)](https://www.youtube.com/watch?v=75pne6MTALk&ab_channel=C%E1%BA%A5utr%C3%BAcD%E1%BB%AFli%E1%BB%87uv%C3%A0Gi%E1%BA%A3ithu%E1%BA%ADt-Nguy%E1%BB%85nV%C4%83nLinh)
+* [Quy hoạch động p1 (YugiHacker)](https://www.youtube.com/watch?v=OChChuFjQw4&ab_channel=YugiHacker)
+* [Các bước code quy hoạch động](https://www.youtube.com/watch?v=YeKg_-uGD-w&ab_channel=TrungHo%C3%A0ng)
 
+## Tóm tắt 4 bước để giải 1 bài Dynamic Programming (Quy hoạch động):
 #### 1. Giải theo hướng đệ quy:
 Đây sẽ là cách dễ nhất để bắt đầu một bài DP. Ở bước này thì bạn không cần quan tâm đến độ phức tạp. Chỉ cần trả đúng giá trị là okay rồi. Thường thì độ phức tạp của bước 1 sẽ là khoảng O(2^N) hoặc O(N!)
     
