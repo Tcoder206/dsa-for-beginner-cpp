@@ -1,6 +1,6 @@
 ## Các bài toán kinh điển về quy hoạch động (Dynamic Programming):
-1. LIS
-2. LCS
+1. Dãy con tăng dài nhất (LIS: Longest Increasing Subsequence)
+2. Chuỗi con chung dài nhất (LCS: Longest Common Sequences)
 3. Fibonacci
 4. Xúc sắc
 
