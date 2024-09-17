@@ -10,6 +10,7 @@
 * [Lý thuyết DP cơ bản (CTDL&GT đại học Cần Thơ)](https://www.youtube.com/watch?v=75pne6MTALk&ab_channel=C%E1%BA%A5utr%C3%BAcD%E1%BB%AFli%E1%BB%87uv%C3%A0Gi%E1%BA%A3ithu%E1%BA%ADt-Nguy%E1%BB%85nV%C4%83nLinh)
 * [Quy hoạch động p1 (YugiHacker)](https://www.youtube.com/watch?v=OChChuFjQw4&ab_channel=YugiHacker)
 * [Các bước code quy hoạch động](https://www.youtube.com/watch?v=YeKg_-uGD-w&ab_channel=TrungHo%C3%A0ng)
+* [LIS - Dãy con tăng dài nhất (28 Tech)](https://www.youtube.com/watch?v=yOMmTMAtKL4)
 
 ## Tóm tắt 4 bước để giải 1 bài Dynamic Programming (Quy hoạch động):
 #### 1. Giải theo hướng đệ quy:
