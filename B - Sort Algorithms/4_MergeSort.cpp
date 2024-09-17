@@ -18,6 +18,9 @@ VD: 6 5 12 10 9 1
 
 Tạo bảng ascii: https://ozh.github.io/ascii-tables/
 
+* Note:
+Index các phần tử trong con trỏ được tính trong nửa khoảng [a; b)
+
 */
 #include<bits/stdc++.h>
 #include<iostream>

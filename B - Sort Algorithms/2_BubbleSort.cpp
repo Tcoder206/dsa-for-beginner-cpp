@@ -3,7 +3,7 @@
 /*
 VD nếu n = 5 thì chỉ lặp 4 lần vì khi sắp xếp các phần tử liền kề, phần tử lớn nhất đã đc đẩy xuống cuối mảng
 VD: int a[n] = {10, 46, 27, 34, 19};
-Lần 1: Lặp 10 và 46 -< Ko thay đổi
+Lần 1: Lặp 10 và 46 -> Ko thay đổi
 Lần 2: Lặp 46 và 27 -> Đổi vị trí 27 và 46. Mảng lúc này là a[n] = {10, 27, 46, 34, 19};
 Lần 3: Lặp 46 và 34 -> Đổi vị trí 34 và 46. Mảng lúc này là a[n] = {10, 27, 34, 46, 19};
 Lần 4: Lặp 46 và 19 -> Đổi vị trí 19 và 46. Mảng lúc này là a[n] = {10, 27, 34, 19, 46};
