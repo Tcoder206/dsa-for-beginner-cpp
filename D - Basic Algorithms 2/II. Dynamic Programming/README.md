@@ -11,6 +11,7 @@
 * [Quy hoạch động p1 (YugiHacker)](https://www.youtube.com/watch?v=OChChuFjQw4&ab_channel=YugiHacker)
 * [Các bước code quy hoạch động](https://www.youtube.com/watch?v=YeKg_-uGD-w&ab_channel=TrungHo%C3%A0ng)
 * [LIS - Dãy con tăng dài nhất (28 Tech)](https://www.youtube.com/watch?v=yOMmTMAtKL4)
+* [LCS - Xâu con chung dài nhất (28 Tech)](https://www.youtube.com/watch?v=Cd-mu9jKjk0&ab_channel=28tech)
 
 ## Tóm tắt 4 bước để giải 1 bài Dynamic Programming (Quy hoạch động):
 #### 1. Giải theo hướng đệ quy:
