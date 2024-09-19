@@ -1,0 +1,1 @@
+[Segment Trees](https://www.youtube.com/watch?v=dRc5ySKB67U&ab_channel=YugiHacker)
