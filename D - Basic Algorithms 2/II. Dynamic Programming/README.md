@@ -1,8 +1,19 @@
 ## Các bài toán kinh điển về quy hoạch động (Dynamic Programming):
-1. Dãy con tăng dài nhất (LIS: Longest Increasing Subsequence)
-2. Chuỗi con chung dài nhất (LCS: Longest Common Sequences)
-3. Fibonacci
-4. Xúc sắc
+- [x] **1.** Dãy con tăng dài nhất (LIS: Longest Increasing Subsequence) <br/>
+- [x] **2.** Chuỗi con chung dài nhất (LCS: Longest Common Sequences) <br/>
+- [x] **3.** Bài toán cái balo 01 (0/1 Knapsack) <br/>
+- [ ] **4.** Bài toán cái balo vô hạn (Unbounded Knapsack) <br/>
+- [ ] **5.** Fibonacci <br/>
+- [ ] **6.** Tập con có tổng bằng S (Subset Sum Problem) <br/>
+- [ ] **7.** Xâu con đối xứng dài nhất (LPS: Longest Palindromic Substring) <br/>
+- [ ] **8.** Xúc sắc <br/>
+- [ ] **9.** Chọn xu <br/>
+- [ ] **10.** Đường đi trên lưới <br/>
+- [ ] **11.** Tổ hợp <br/>
+- [ ] **12.** Tổng cộng dồn <br/>
+- [ ] **13.** Xếp bò <br/>
+- [ ] **14.** Hình vuông lớn nhất <br/>
+- [ ] **15.** Cắt hình chữ nhật <br/>
 
 ## Các nguồn tài liệu tham khảo
 * [16 bài DP cơ bản (YugiHacker)](https://www.youtube.com/watch?v=FcPcQ7bccxM&t=4s&ab_channel=YugiHacker)
