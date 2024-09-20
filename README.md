@@ -28,3 +28,10 @@ Phổ biến và đc ưa chuộng:
 - [ ] Merge Sort
 - [ ] Quick Sort
 - [ ] Heap Sort
+
+### Các bước hiểu sâu bản chất dành cho người beginner
+* Search video bài giảng của thuật toán trên youtube
+* Search video minh họa cách hoạt động của thuật toán trên youtube
+* Hỏi AI về cách hoạt động của thuật toán (chatgpt)
+* Search google ảnh gif mô phỏng cách hoạt động của thuật toán
+* Mô phỏng lại ra giấy hoặc excels

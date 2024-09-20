@@ -13,6 +13,7 @@
 * [LIS - Dãy con tăng dài nhất (28 Tech)](https://www.youtube.com/watch?v=yOMmTMAtKL4)
 * [LCS - Xâu con chung dài nhất (28 Tech)](https://www.youtube.com/watch?v=Cd-mu9jKjk0&ab_channel=28tech)
 * [Play list về DP sử dụng đệ quy](https://www.youtube.com/watch?v=nZBfaC0lfqI&list=PLDgptIulgMt5hmL8-H9lLrgIYxgaQixGk&ab_channel=Ngh%E1%BB%87thu%E1%BA%ADtl%E1%BA%ADptr%C3%ACnh)
+* [Mô phỏng cách hoạt động của 0/1 knapsack](https://www.youtube.com/watch?v=cJ21moQpofY)
 
 ## Tóm tắt 4 bước để giải 1 bài Dynamic Programming (Quy hoạch động):
 #### 1. Giải theo hướng đệ quy:
