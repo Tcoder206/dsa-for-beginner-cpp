@@ -1,6 +1,6 @@
 /*
 
-Quy hoạch Lomuto: Chọn phần tử cuối cùng làm mốc (pivot) để so sánh
+Quy hoạch Lomuto: Thường chọn phần tử cuối cùng làm mốc (pivot) để so sánh
 
 VD: 2 8 7 1 3 5 6 4
 Chọn 4 làm pivot -> chia ra làm 2 phần 2 1 3 và 8 7 5 6

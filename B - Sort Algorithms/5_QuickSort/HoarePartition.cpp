@@ -1,7 +1,7 @@
 /*
 Pivot: Giá trị dùng để phân chia mảng
 
-Pivot sẽ ko còn là phần tử cuối mà sẽ là phần tử bất kỳ
+Thường sẽ chọn phần tử đầu tiên làm pivot
 Sau khi chọn pivot thì sẽ chọn cặp nghịch thế (i, j) để sắp xép
 
 
@@ -50,7 +50,7 @@ int partition(int a[], int left, int right) {
         
         if(i < j) { // Kiểm tra nếu i và j nằm 2 phía khác nhau của pivot
             swap(a[i], a[j]);
-        } else return j;
+        } else return j; // Khi i vượt qua j thì sẽ trả về j để dễ dàng xử lý mảng con nhỏ hơn
     }
 }
 

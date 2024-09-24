@@ -15,16 +15,16 @@ Vậy nếu sắp xếp 1 mảng có n phần tử thì cần lặp n - 1 lần
 using namespace std;
 int bubbleSort(int *a, int n) {
     for(int i = 0; i < n - 1; i++){
-        bool isSwapped = false;
+        bool isSwapped = false; // Mỗi lần tăng i thì sẽ đặt là false
         for(int j = 0; j < n - i - 1; j++){
-            if(a[j] > a[j + 1]){
+            if(a[j] > a[j + 1]){ // (*)
                 int temp = a[j];
                 a[j] = a[j + 1];
                 a[j + 1] = temp;
-                isSwapped = true;                
+                isSwapped = true; // Nếu lọt vào đkiện (*) thì sẽ đổi là true
             }
         }
-        if(!isSwapped) break;
+        if(!isSwapped) break; // Nếu đã đc sắp xếp xong (ko lọt vào đkien (*) nên vẫn là false thì sẽ thoát ctrinh)
     }
 }
 int main() {
