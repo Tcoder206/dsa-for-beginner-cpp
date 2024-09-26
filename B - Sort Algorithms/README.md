@@ -18,7 +18,7 @@
 - Big-O Notation: O(n*log(n))
 - Nên dùng khi: Dùng trong bộ nhớ lớn, sắp xếp file hoặc quản lý csdl
 
-**5.** Quick Sort (Sắp xếp nhanh)
+**5.** [Quick Sort (Sắp xếp nhanh)](https://www.youtube.com/watch?v=Vtckgz38QHs&ab_channel=BroCode)
 - Big-O Notation:
     + Worst Case: O(n^2)
     + Average Case or Best Case:  O(n*log(n))
@@ -34,13 +34,13 @@ __**b.**__ Quy hoạch Hoare `23/8/2024`
 - Big-O Notation: O(Max k * n)
 - Nên dùng khi: Các bài toán có số đếm giới hạn, sắp xếp chữ cái, mảng có giá trị nhỏ
 
-**8.** Heap Sort
+**8.** [Heap Sort (Sắp xếp vun đống)](https://www.youtube.com/watch?v=XFI96Z7i3LE&ab_channel=28tech)
 - Big-O Notation: O(n*log(n))
 - Nên dùng khi: Sắp xếp các tập dữ liệu lớn khi cần tính nhất quán về hiệu suất
 
-9. Intro Sort
-- Big-O Notation: O(n*log(n))
-- Nên dùng khi: Sắp xếp khi cần một thuật toán mạnh và an toàn
+9. Pigeonhole Sort
+- Big-O Notation: O(n + k), k là phạm vi giá trị
+- Nên dùng khi: Cần sắp xếp nhanh chóng với phạm vi giá trị nhỏ
 
 10. Bucket Sort
 - Big-O Notation: 
@@ -51,19 +51,19 @@ __**b.**__ Quy hoạch Hoare `23/8/2024`
     + Cần sắp xếp 1 tập dữ liệu phân bố giá trị đều yêu cầu thgian thực thi nhanh
     + Hữu dụng khi sắp xếp số thực hoặc các giá trị có khoảng giá trị cụ thể
 
-11. Shell Sort
+11. [Shell Sort](https://www.youtube.com/watch?v=408TQi6MWmI)
 - Big-O Notation:
     + Average Case: O(n*log(n)^2)
     + Best Case: O(n)
 - Nên dùng khi: Sắp xếp 1 mảng có kích thước vừa phải
 
-12. Pigeonhole Sort
-- Big-O Notation: O(n + k), k là phạm vi giá trị
-- Nên dùng khi: Cần sắp xếp nhanh chóng với phạm vi giá trị nhỏ
-
-13. Bitonic Sort
+12. Bitonic Sort
 - Big-O Notation: O(n*log(n)^2)
 - Nên dùng khi: Khi cần sắp xếp trong trong môi trường song song hoặc đa xử lý
+
+13. Intro Sort ( Thường là thuật toán đc sử dụng cho hàm sort() )
+- Big-O Notation: O(n*log(n))
+- Nên dùng khi: Sắp xếp khi cần một thuật toán mạnh và an toàn
 
 14. Cycle Sort
 - Big-O Notation: O(n^2)
