@@ -22,6 +22,7 @@ Note:
 3 50
 10 20 30
 60 100 120
+220
 
 6 22
 39 44 4 59 91 70
@@ -32,6 +33,12 @@ Note:
 10 3 22 50 83 16 41
 99 97 54 19 50 70 48
 196
+
+5 7
+2 2 4 5 3
+3 1 3 4 2
+10
+
 */
 
 #include<bits/stdc++.h>
@@ -48,7 +55,7 @@ int main() {
                 dp[i][j] = 0; // Ko chọn vật ko có khối lượng hoặc ko có giá trị
             } else {
                 dp[i][j] = dp[i - 1][j]; // Lưu lại đồ vật đã bỏ lần trước
-                if(j >= w[i]) { // Nếu khối lượng của vật bé hơn bằng khối lượng j
+                if(j >= w[i]) { // Nếu khối lượng của vật bé hơn bằng khối lượng j thì:
                     dp[i][j] = max(dp[i][j], dp[i - 1][j - w[i]] + v[i]);
                     // j - w[i]: Khối lượng vừa đủ của đồ thứ i - 1 để nhét thêm v[i]
                     // dp[i - 1][j - w[i]]: Xét vật thứ i nào mà có khối lượng j - w[i] 
