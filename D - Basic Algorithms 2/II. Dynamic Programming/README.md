@@ -2,10 +2,10 @@
 - [x] **1.** Dãy con tăng dài nhất (LIS: Longest Increasing Subsequence) <br/>
 - [x] **2.** Chuỗi con chung dài nhất (LCS: Longest Common Sequences) <br/>
 - [x] **3.** Bài toán cái balo 01 (0/1 Knapsack) <br/>
-- [ ] **4.** Bài toán cái balo vô hạn (Unbounded Knapsack) <br/>
-- [ ] **5.** Fibonacci <br/>
-- [ ] **6.** Tập con có tổng bằng S (Subset Sum Problem) <br/>
-- [ ] **7.** Xâu con đối xứng dài nhất (LPS: Longest Palindromic Substring) <br/>
+- [x] **4.** Bài toán cái balo vô hạn (Unbounded Knapsack) <br/>
+- [x] **5.** Fibonacci <br/>
+- [x] **6.** Tập con có tổng bằng S (Subset Sum Problem) <br/>
+- [x] **7.** Xâu con đối xứng dài nhất (LPS: Longest Palindromic Substring) <br/>
 - [ ] **8.** Xúc sắc <br/>
 - [ ] **9.** Chọn xu <br/>
 - [ ] **10.** Đường đi trên lưới <br/>
