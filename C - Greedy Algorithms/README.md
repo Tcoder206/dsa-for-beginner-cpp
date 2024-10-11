@@ -1,4 +1,7 @@
 ## Greedy Algorithms (Giải thuật tham lam)
+#### Các kĩ thuật
+* Thuật toán moore
+* Exchange Argument
 #### Định nghĩa chung
 #### Bài tập thực hành
 - [x] **1.** Bài toán mua sách <br/>
