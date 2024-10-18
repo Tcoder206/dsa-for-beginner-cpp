@@ -12,7 +12,7 @@ void heapify(int *a, int n, int i) { // Xét cây nhị phân từ dưới lên 
     }
     if(largest != i) { // So sánh giá trị lớn nhất với node cha
         swap(a[largest], a[i]); // Đổi chỗ nếu a[i] chưa phải giá trị lớn nhất
-        heapify(a, n, i); // Tiếp tục đệ quy để sắp xếp theo dạng max heap
+        heapify(a, n, largest); // Tiếp tục đệ quy để sắp xếp theo dạng max heap
     }
 }
 void heapSort(int *a, int n) {

@@ -15,8 +15,8 @@ int partition(int a[], int left, int right) {
     int pivot = a[right]; // Chọn pivot là phần tử cuối
     int i = left - 1;
     for(int j = left; j < right; j++) { // Dồn phần tử bé hơn pivot về bên trái, lớn hơn về bên phải
-        if(a[j] <= pivot) {
-            swap(a[++i], a[j]);
+        if(a[j] <= pivot) { // Xét đến phần tử gần nhất mà nhỏ hơn pivot
+            swap(a[++i], a[j]); // Đổi 
         }
     }
     // Xếp pivot về đúng vị trí (sau phần tử bé hơn pivot, trước phần tử lớn hơn pivot)
