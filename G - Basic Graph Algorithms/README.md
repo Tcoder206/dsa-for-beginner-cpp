@@ -1,3 +1,6 @@
+## 0. Lý thuyết & biểu diễn đồ thị
+- Từ danh sách cạnh biểu diễn sang dạng ma trận kề
+
 ## 1. Breadth-First Search (BFS)
 #### Định nghĩa
 * Là thuật toán duyệt đồ thị bắt đầu từ một đỉnh gốc và duyệt qua các đỉnh kề theo từng lớp (level) từ gần đến xa.
