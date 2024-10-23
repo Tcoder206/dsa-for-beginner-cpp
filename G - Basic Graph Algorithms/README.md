@@ -1,5 +1,10 @@
-## 0. Lý thuyết & biểu diễn đồ thị
-- Từ danh sách cạnh biểu diễn sang dạng ma trận kề
+## Lý thuyết & biểu diễn đồ thị
+- Từ danh sách cạnh biểu diễn sang ma trận kề
+- Từ danh sách cạnh biểu diễn sang danh sách kề
+- Từ ma trận kề biểu diễn sang danh sách cạnh
+- Từ ma trận kề biểu diễn sang danh sách kề
+- Từ danh sách kề biểu diễn sang ma trận kề
+- Từ danh sách kề biểu diễn sang danh sách cạnh
 
 ## 1. Breadth-First Search (BFS)
 #### Định nghĩa

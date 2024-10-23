@@ -7,15 +7,11 @@ Input:
 1 1 1 0 1
 0 1 1 1 0
 Output:
-1 2
-1 3
-1 4
-2 3
-2 4
-2 5
-3 4
-3 5
-4 5
+1 : 2 3 4
+2 : 1 3 4 5
+3 : 1 2 4 5
+4 : 1 2 3 5
+5 : 2 3 4
 */
 #include<bits/stdc++.h>
 using namespace std;
@@ -24,16 +20,14 @@ int main() {
     for(int i = 1; i <= n; i++) {
         for(int j = 1; j <= n; j++) cin >> a[i][j];
     }
-    vector<pair<int, int>> res;
+    vector<int> res[n + 1];
     for(int i = 1; i <= n; i++) {
         for(int j = 1; j <= n; j++) {
-            if(a[i][j] == 1 && i < j) {
-                res.push_back({i, j});
+            if(a[i][j]) {
+                res[i].push_back(j);
+                // res[j].push_back(i); // Dòng này xảy ra khi có đkien i < j
             }
         }
-    }
-    for(auto it : res) {
-        cout << it.first << " " << it.second << endl;
     }
     return 0;
 }
