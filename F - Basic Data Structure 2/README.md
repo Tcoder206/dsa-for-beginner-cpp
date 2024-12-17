@@ -1,4 +1,22 @@
 ## 1. Resizing Array (Vector): Mảng thay đổi kích thước
+* [Link video youtube tham khảo (28tech)](https://www.youtube.com/watch?v=053Tcz4omzk)
+```cpp
+std::vector<int> vec1(size_of_array, default_values); // Khai báo thông thường
+
+int arr[4] = {2, 4, 6, 8}
+std::vector<int> vec2(arr, arr + 4); // 
+/*
+arr + 0: Phần tử đầu tiên (2).
+arr + 1: Phần tử thứ hai (4).
+arr + 2: Phần tử thứ ba (6).
+arr + 3: Phần tử thứ tư (8).
+arr + 4: Vị trí ngay sau phần tử cuối cùng (ngoài vùng của mảng).
+*/
+
+std::vector<int> vec3(vec2); // Khai báo bằng cách copy từ vec2
+
+std::vector<int> vec4(std::move(vec2)); // Khai báo bằng cách chuyển toàn bộ dữ liệu từ vec2 vào
+```
 
 ## 2. Linked List (Danh sách liên kết)
 

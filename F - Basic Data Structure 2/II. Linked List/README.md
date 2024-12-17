@@ -1,0 +1,2 @@
+[Cấu trúc của linked list (28tech)](https://www.youtube.com/watch?v=mdG5TEiJTx8&ab_channel=28tech)
+[Playlist về linked list (28tech)](https://www.youtube.com/watch?v=tLZypRFV-Xk&list=PLux-_phi0Rz1k7dQ7iWAw4xDD-KBHcW0F&ab_channel=28tech)
